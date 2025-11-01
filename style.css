@@ -75,6 +75,19 @@ p {
     flex-direction: column;
     gap: 12px;
 }
+.category-container {
+    background-color: var(--yello);
+    font: var(--text-preset3-bold);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px;
+    width: 82px;
+    height: fit-content;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
 
 .attribution { 
     font-size: 11px; 
