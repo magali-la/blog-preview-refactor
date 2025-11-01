@@ -33,12 +33,12 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: var(--gray-950)
 }
 
 /* font styles */
 h1 {
     font: var(--text-preset1);
-    color: var(--gray-950);
     margin: 0;
 }
 h1:hover {
@@ -87,6 +87,16 @@ p {
     height: fit-content;
     box-sizing: border-box;
     border-radius: 4px;
+}
+.published-text {
+    font: var(--text-preset3);
+}
+.description-text {
+    font: var(--text-preset2);
+    color: var(--gray-500);
+}
+.author-text {
+    font: var(--text-preset3-bold);
 }
 
 .attribution { 
