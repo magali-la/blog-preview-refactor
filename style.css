@@ -1,4 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
+:root {
+    /* custom colors */
+    --yello: #F4D04E;
+    --gray-500: #6B6B6B;
+    --gray-950: #111111;
+
+    /* custom fonts */
+    --font-figtree: 'Figtree', sans-serif;
+
+    /* typography styles */
+    --text-preset1: 800 24px/150% var(--font-figtree);
+    --text-preset2: 500 16px/150% var(--font-figtree);
+    --text-preset3: 500 14px/150% var(--font-figtree);
+    --text-preset3-bold: 800 14px/150% var(--font-figtree);
+
+    /* letter spacing styles */
+    --spacing1: 0px;
+}
 
 .attribution { 
     font-size: 11px; 
