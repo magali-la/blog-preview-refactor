@@ -31,6 +31,14 @@ main {
     width: 100%;
 }
 
+h1 {
+    font: var(--text-preset1);
+    color: var(--gray-950);
+}
+h1:hover {
+    color: var(--yello);
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
