@@ -29,10 +29,6 @@ main {
     background-color: var(--yello);
     height: 100%;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     color: var(--gray-950)
 }
 
@@ -48,7 +44,7 @@ p {
     margin: 0;
  }
 
-.card-container {
+/* .card-container {
     background-color: white;
     box-sizing: border-box;
     width: 384px;
@@ -134,4 +130,4 @@ p {
     .img {
         object-fit: cover;
     }
-}
+} */
